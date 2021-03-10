@@ -10,13 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView (selection: .constant(1)) {
-           NavigationView {
-            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                    NewsCell()
+            NavigationView {
+                List(0 ..< 5) { item in
+                    NavigationLink(destination: Text("Destination")) {
+                        NewsCell()
+                    }
                 }
-            }
-            .navigationTitle("News")
+                .navigationTitle("News")
             }
             .tabItem {Label("News",systemImage:"newspaper.fill")}
             .tag(1)
@@ -63,12 +63,27 @@ struct ContentView_Previews: PreviewProvider {
 
 struct NewsCell: View {
     var body: some View {
-        VStack {
-            Text("Text")
-                .font(.title2)
-                .fontWeight(.bold)
-            Text("Tertiary Text")
-                .foregroundColor(Color.gray)
+        VStack(alignment: .leading) {
+            HStack {
+                Image(systemName: "photo")
+                    .resizable(resizingMode:.stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 44.0, height: 44.0)
+                VStack(alignment: .leading) {
+                        Text("Text")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        Text("Tertiary Text")
+                            .foregroundColor(Color.gray)
+                }
+            }
+            Text("Detail Text")
+            Image(systemName: "photo")
+                .resizable(resizingMode:.stretch)
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 360.0)
+                .clipped()
         }
     }
 }
+
