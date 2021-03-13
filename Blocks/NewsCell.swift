@@ -18,7 +18,7 @@ struct NewsCell: View {
         VStack(alignment: .leading) {
             HStack {
                 image
-                    .resizable(resizingMode:.stretch)
+                    .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 44.0, height: 44.0)
                 VStack(alignment: .leading) {
@@ -31,7 +31,7 @@ struct NewsCell: View {
             }
            detailText
            largeImage
-                .resizable(resizingMode:.stretch)
+                .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 360.0)
                 .clipped()

@@ -13,29 +13,26 @@ struct ContentView: View {
             NavigationView {
                 List(0 ..< 5) { item in
                     NavigationLink(destination: Text("Destination")) {
-                        NewsCell(image: Image(systemName: "photo"),
-                                 text: Text("Text"),
-                                 detailText: Text("Detail Text"),
-                                 tertiaryText: Text("Tertiary Text") ,
-                                 largeImage: Image(systemName: "photo"))
+                        NewsCell(article: .airBlock)
+                        
                     }
                 }
                 .navigationTitle("News")
             }
-            .tabItem {Label("News",systemImage:"newspaper.fill")}
+            .tabItem { Label("News",systemImage:"newspaper.fill") }
             .tag(1)
             NavigationView {
                 Text("Tab Content 2")
                     .navigationTitle("Products")
             }
-            .tabItem {Label("Products",systemImage:"cart.fill")}
+            .tabItem { Label("Products",systemImage:"cart.fill") }
             .tag(2)
             NavigationView {
                 Text("Tab Content 3")
                     .navigationTitle("Chat")
                     .navigationBarTitleDisplayMode(/*@START_MENU_TOKEN@*/.inline/*@END_MENU_TOKEN@*/)
             }
-            .tabItem {Label("Chat",systemImage:"message.fill")}
+            .tabItem { Label("Chat",systemImage:"message.fill") }
             .tag(3)
         }
         .accentColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
