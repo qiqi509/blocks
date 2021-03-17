@@ -11,10 +11,9 @@ struct ContentView: View {
     var body: some View {
         TabView (selection: .constant(1)) {
             NavigationView {
-                List(0 ..< 5) { item in
+                List(Article.mocks) { article in
                     NavigationLink(destination: Text("Destination")) {
-                        NewsCell(article: .airBlock)
-                        
+                        NewsCell(article: article)
                     }
                 }
                 .navigationTitle("News")
