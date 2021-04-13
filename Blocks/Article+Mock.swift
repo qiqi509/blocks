@@ -25,7 +25,6 @@ extension Article {
         smallImageName: "houseSimple",
         largeImageName: "houseInterior"
     )
-        
 }
 
 extension Article {

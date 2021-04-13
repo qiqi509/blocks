@@ -17,7 +17,7 @@
 		184A01A525FC8FF900ACE350 /* NewsCell+Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A01A425FC8FF900ACE350 /* NewsCell+Article.swift */; };
 		1897E0F6261162D800654432 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E0F5261162D800654432 /* ProductCell.swift */; };
 		1897E0FA26118AD000654432 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E0F926118AD000654432 /* Product.swift */; };
-		1897E0FD26118BE800654432 /* Product + Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E0FC26118BE800654432 /* Product + Mock.swift */; };
+		1897E0FD26118BE800654432 /* Product+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E0FC26118BE800654432 /* Product+Mock.swift */; };
 		1897E100261195BA00654432 /* ProductCell+Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E0FF261195BA00654432 /* ProductCell+Product.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		184A01A425FC8FF900ACE350 /* NewsCell+Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsCell+Article.swift"; sourceTree = "<group>"; };
 		1897E0F5261162D800654432 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		1897E0F926118AD000654432 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		1897E0FC26118BE800654432 /* Product + Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product + Mock.swift"; sourceTree = "<group>"; };
+		1897E0FC26118BE800654432 /* Product+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+Mock.swift"; sourceTree = "<group>"; };
 		1897E0FF261195BA00654432 /* ProductCell+Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductCell+Product.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 				183F01A125F72B3E00C29283 /* ContentView.swift */,
 				1897E0F5261162D800654432 /* ProductCell.swift */,
 				1897E0F926118AD000654432 /* Product.swift */,
-				1897E0FC26118BE800654432 /* Product + Mock.swift */,
+				1897E0FC26118BE800654432 /* Product+Mock.swift */,
 				1897E0FF261195BA00654432 /* ProductCell+Product.swift */,
 				183F01AF25F8BF3B00C29283 /* NewsCell.swift */,
 				184A019E25FC8A6D00ACE350 /* Article.swift */,
@@ -164,7 +164,7 @@
 			files = (
 				184A019F25FC8A6E00ACE350 /* Article.swift in Sources */,
 				1897E0FA26118AD000654432 /* Product.swift in Sources */,
-				1897E0FD26118BE800654432 /* Product + Mock.swift in Sources */,
+				1897E0FD26118BE800654432 /* Product+Mock.swift in Sources */,
 				1897E0F6261162D800654432 /* ProductCell.swift in Sources */,
 				184A01A525FC8FF900ACE350 /* NewsCell+Article.swift in Sources */,
 				183F01A225F72B3E00C29283 /* ContentView.swift in Sources */,

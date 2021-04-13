@@ -27,5 +27,5 @@ extension Product {
 }
 
 extension Product {
-    static let mocks: [Self] = [. sydney,.spaceShuttle]
+    static let mocks: [Self] = [.sydney, .spaceShuttle]
 }

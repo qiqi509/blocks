@@ -17,10 +17,6 @@ extension ProductCell {
         )
     }
 }
-    
-
-
-
 
 
 struct ProductCell_Product_Previews: PreviewProvider {
