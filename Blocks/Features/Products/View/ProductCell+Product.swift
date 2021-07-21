@@ -10,10 +10,10 @@ import SwiftUI
 extension ProductCell {
     init(product: Product) {
         self.init(
-            image: Image (product.imageName),
+            image: Image(product.imageName),
             text: Text(product.name),
             detailText: Text(product.description),
-            tertiaryText: Text (String(describing:product.price))
+            tertiaryText: Text(String(describing:product.price))
         )
     }
 }

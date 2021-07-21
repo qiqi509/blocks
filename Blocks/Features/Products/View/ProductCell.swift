@@ -15,22 +15,17 @@ struct ProductCell: View {
     
     var body: some View {
         HStack {
-            Image(systemName: "photo")
+            image
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 60.0)
             VStack (alignment: .leading) {
-                Text ("Text")
+                text
                     .font (.title2)
                     .fontWeight(.bold)
-                Text("Detail Text")
+                detailText
                     .foregroundColor(Color.gray)
-                HStack {
-                    Text("Tertiary Text")
-                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                        Text("Buy")
-                    }
-                }
+                    tertiaryText
             }
             
         }
@@ -45,7 +40,7 @@ struct ProductCell_Previews: PreviewProvider {
             detailText: Text("Detail Text"),
             tertiaryText: Text ("Teriary Text")
         )
-            .previewLayout(.sizeThatFits)
+        .previewLayout(.sizeThatFits)
         
     }
 }

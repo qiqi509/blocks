@@ -21,7 +21,7 @@ struct NewsCell: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 44.0, height: 44.0)
-                VStack(alignment: .leading) {
+               VStack(alignment: .leading) {
                        text
                             .font(.title2)
                             .fontWeight(.bold)
